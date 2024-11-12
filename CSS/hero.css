@@ -1,0 +1,53 @@
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: right;
+    color: #2c2c2c;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background-color: #bbf330;
+    border: 1px solid transparent;
+}
+
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    width: 502px;
+    margin-bottom: 28px;
+}
+.hero-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    width: 511px;
+    margin-bottom: 40px;
+}
+.hero-container {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 68px;
+    
+}
+.hero-text-container {
+    padding-top: 145px;
+    padding-right: 143px;
+}
+.hero-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 580px;
+    margin-right: 14px;
+    border-radius: 100%;
+    border: 26px solid #FFE550;
+}
