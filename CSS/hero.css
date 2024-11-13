@@ -36,3 +36,7 @@
     border-radius: 100%;
     border: 26px solid #FFE550;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:#FFE450;
+}
