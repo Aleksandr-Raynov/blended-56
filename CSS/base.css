@@ -35,16 +35,10 @@ img {
   height: auto;
 }
 
-button {
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.5;
-  text-align: right;
-  color: #2c2c2c;
-  padding: 6px 18px;
-  border-radius: 30px;
-  background-color: #bbf330;
-  border: 1px solid transparent;
+.btn {
   cursor: pointer;
+  background-color: #bbf330;
+  color: #2c2c2c;
+  border-radius: 30px;
+  border: 1px solid transparent;
 }
-

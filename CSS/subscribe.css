@@ -1,0 +1,72 @@
+.subscribe-container {
+  padding-top: 176px;
+  padding-bottom: 201px;
+  display: flex;
+}
+
+.susbcribe-left-side {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  margin-bottom: 36px;
+}
+.subscribe-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  line-height: 1.5;
+  margin-bottom: 24px;
+  width: 532px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.subscribe-label {
+  margin-right: 32px;
+}
+.subscribe-input {
+  background-color: #fefefe;
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  height: 42px;
+  outline: transparent;
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 150%;
+  color: #505050;
+}
+
+.subscribe-btn {
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #ffe450;
+}
+
+.susbcribe-rigt-side {
+  width: 608px;
+}
+
+.susbcribe-rigt-side img {
+  height: 266px;
+}
