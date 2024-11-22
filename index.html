@@ -245,42 +245,52 @@
         </div>
       </section>
     </main>
-
     <!-- Section Footer -->
-    <footer>
-      <img src="./images/Logo.png" alt="Logo" />
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-      <div>
-        <h3>Subscribe</h3>
-        <form id="emailForm">
-          <label for="email"></label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <button type="button">Subscribe</button>
-        </form>
-        <p>
-          By subscribing you agree to with our
-          <span><a href="">Privacy Policy</a></span>
-        </p>
+    <footer class="footer">
+      <div class="footer-logo-nav-subscribe">
+        <img src="./images/Logo.png" alt="Logo" />
+        <ul class="footer-nav-list">
+          <li><a class="footer-a" href="">Home</a></li>
+          <li><a class="footer-a" href="">About</a></li>
+          <li><a class="footer-a" href="">Service</a></li>
+          <li><a class="footer-a" href="">Menu</a></li>
+          <li><a class="footer-a" href="">Contact</a></li>
+        </ul>
+
+        <div>
+          <form id="emailForm">
+            <div class="footer-label-input">
+              <label class="footer-label subtitle-customers" for="email"
+                >Subscribe</label
+              >
+              <div class="only-input-btn">
+                <input
+                  class="footer-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+
+                <button type="button">Subscribe</button>
+              </div>
+            </div>
+          </form>
+          <p class="footer-text">
+            By subscribing you agree to with our
+            <span><a class="footer-span" href="">Privacy Policy</a></span>
+          </p>
+        </div>
       </div>
-      <ul>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
-        <li><a href="">Cookies Settings</a></li>
-      </ul>
-      <p>2022 FoodSta. All right reserved.</p>
-      <img src="./images/fruitfooter.png" alt="Fruits" />
+      <div class="footer-last-div">
+        <ul class="footer-last-div-list">
+          <li><a class="footer-text" href="">Privacy Policy</a></li>
+          <li><a class="footer-text" href="">Terms of Service</a></li>
+          <li><a class="footer-text" href="">Cookies Settings</a></li>
+        </ul>
+        <p class="footer-text">2022 FoodSta. All right reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
