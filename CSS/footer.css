@@ -3,9 +3,9 @@
     background: #fefefe;
     background-image: url(/images/fruitfooter.png);
     background-repeat: no-repeat;
-    background-position: left 53px, top 129px, right 16px;
-        background-size: contain;
-        min-width: 1211px;
+    background-position: left 53px top 129px;
+        background-size: calc(100% - 69px) calc(100% - 129px);
+        max-width: 1211px;
         
 }
 .footer-logo-nav-subscribe {
@@ -83,7 +83,7 @@
     
     
 }
-.footer-last-div-list .footer-a {
+.footer-last-div-list .footer-text {
     color: #7eb101;
     text-decoration: underline;
 }
