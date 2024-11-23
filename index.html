@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./CSS/hero.css" />
     <link rel="stylesheet" href="./CSS/offerince.css" />
     <link rel="stylesheet" href="./CSS/subscribe.css" />
+    <link rel="stylesheet" href="./CSS/modal.css" />
 
     <title>FoodSta</title>
   </head>
@@ -59,7 +60,9 @@
               enjoy a hassle-free and delicious meal from the comfort of your
               own home.
             </p>
-            <button type="button" class="btn hero-btn">Order Now</button>
+            <button type="button" class="btn hero-btn" open-modal>
+              Order Now
+            </button>
           </div>
           <div class="hero-img-container">
             <img
@@ -292,5 +295,52 @@
         <p class="footer-text">2022 FoodSta. All right reserved.</p>
       </div>
     </footer>
+
+    <!-- Section Modal Overlay -->
+    <div class="modal-overlay" modal>
+      <div class="modal">
+        <button class="btn modal-close-btn" type="button" close>X</button>
+        <h2 class="modal-title">Order Form</h2>
+        <div class="modal-wrapper">
+          <form action="" class="modal-form">
+            <label for="name" class="modal-label">Name</label>
+            <input
+              type="text"
+              class="modal-input"
+              placeholder="Your name"
+              id="name"
+              pattern="[A-Za-z]{3}"
+              required
+              title="введіть свої дані"
+            />
+
+            <label for="phone" class="modal-label">Phone number</label>
+            <input
+              type="phone"
+              class="modal-input"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              id="phone"
+              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              required
+              title="введіть свої дані"
+            />
+
+            <label for="email" class="modal-label">E-mail</label>
+            <input
+              type="email"
+              class="modal-input"
+              placeholder="example@gmail.com"
+              id="email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              required
+              title="введіть свої дані"
+            />
+          </form>
+        </div>
+        <button class="btn modal-btn" type="submit">Send</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
