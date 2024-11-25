@@ -27,11 +27,7 @@
    }
 
 .ul-header {display: flex;
-            gap:28px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            color: #000;}
+            gap:28px;}
 
 .link-header{
     font-weight: 700;
@@ -40,8 +36,8 @@
     text-decoration-skip-ink: none;
     color: #bbf330;}
 
-.linl-other{font-family: "Roboto", sans-serif;
-font-weight: 400;
+.link-other{font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #000;}
 
